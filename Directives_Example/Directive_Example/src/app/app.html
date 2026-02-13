@@ -1,0 +1,12 @@
+<h2> Available products in Showroom</h2>
+
+
+<div class="product-container">
+
+  <div *ngFor="let pr of products" class="product-card">
+
+      <div class="product-name">{{pr.name}}</div>
+      <div class="product-description">{{pr.description}}</div>
+      <div class="product-price">{{pr.price}}</div>
+
+</div>
